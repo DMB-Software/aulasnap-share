@@ -6,7 +6,8 @@
         "namespace": "android_app",
         "package_name": "com.dmb.aulasnap",
         "sha256_cert_fingerprints": [
-            "04:5A:EC:18:6F:B9:D6:17:18:3C:F8:FA:85:0A:F8:22:CB:49:86:13:55:31:44:9D:DF:71:4D:8F:5C:2C:42:A4"
+            "04:5A:EC:18:6F:B9:D6:17:18:3C:F8:FA:85:0A:F8:22:CB:49:86:13:55:31:44:9D:DF:71:4D:8F:5C:2C:42:A4",
+            "1B:E6:6C:6F:1A:14:E4:38:B3:9A:6F:24:83:BC:94:0F:1B:B7:A4:B8:C1:68:34:EB:43:3E:D9:79:B0:3A:25:4C"
         ]
     }
 }]
