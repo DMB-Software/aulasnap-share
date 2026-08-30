@@ -1,16 +1,219 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AulaSnap</title>
+    <meta name="theme-color" content="#6750e8">
+    <meta name="description" content="AulaSnap organiza suas aulas, materiais e assuntos para você registrar rápido e encontrar tudo quando precisar estudar.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="AulaSnap">
+    <meta property="og:title" content="AulaSnap — Registre agora. Encontre quando for estudar.">
+    <meta property="og:description" content="Organize aulas, materiais e assuntos com simplicidade, no seu aparelho e sob o seu controle.">
+    <meta property="og:url" content="https://share.dmbsoftware.com.br/">
+    <link rel="canonical" href="https://share.dmbsoftware.com.br/">
+    <link rel="stylesheet" href="styles.css">
+    <title>AulaSnap — Suas aulas organizadas</title>
 </head>
-<!-- GitHub Pages deploy -->
 <body>
-    <h1>AulaSnap</h1>
-    <p>Conteúdo compartilhado pelo AulaSnap.</p>
-    <p>Abra este link em um aparelho com o AulaSnap instalado.</p>
-</body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="AulaSnap — início">
+                <img src="s.%20titulo/SVG/Prancheta%201.svg" alt="" width="40" height="40">
+                <span>AulaSnap</span>
+            </a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#privacidade">Privacidade</a>
+                <a class="nav-cta" href="#download">Download</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow">Organização para o estudo real</p>
+                    <h1 id="hero-title">Registre agora.<br><span>Encontre quando for estudar.</span></h1>
+                    <p class="hero-lead">Guarde aulas, fotos, notas e assuntos em uma estrutura simples. Depois, retome seu conteúdo sem perder tempo procurando.</p>
+                    <div class="hero-actions">
+                        <!-- Substituir por um link quando a URL oficial da Play Store estiver disponível. -->
+                        <span class="button button-primary store-cta" aria-label="AulaSnap estará disponível em breve no Google Play">
+                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4.6 3.2A2.4 2.4 0 0 0 4 4.9v14.2c0 .7.2 1.3.6 1.7l8.1-8.1-8.1-8.1v-1.4Zm10.7 12.3-2.6-2.6 2.6-2.8 3.2 1.9c.9.5.9 1.4 0 1.9l-3.2 1.8v-.2ZM5.7 21.3l8.4-4.8-2.7-2.7-5.7 7.5Zm8.4-13.8L5.7 2.7l5.7 7.5 2.7-2.7Z" fill="currentColor"/></svg>
+                            Em breve no Google Play
+                        </span>
+                        <a class="button button-secondary" href="#como-funciona">Conheça o AulaSnap</a>
+                    </div>
+                    <ul class="hero-notes" aria-label="Destaques">
+                        <li><span aria-hidden="true">✓</span> Funciona localmente</li>
+                        <li><span aria-hidden="true">✓</span> Conta Google opcional</li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual" aria-label="Exemplo ilustrativo da organização de conteúdo no AulaSnap">
+                    <div class="orbit orbit-one" aria-hidden="true"></div>
+                    <div class="orbit orbit-two" aria-hidden="true"></div>
+                    <article class="study-preview">
+                        <div class="preview-header">
+                            <div class="preview-brand">
+                                <img src="s.%20titulo/SVG/Prancheta%201.svg" alt="" width="38" height="38">
+                                <div><strong>AulaSnap</strong><span>Estrutura de exemplo</span></div>
+                            </div>
+                            <span class="local-badge">Local</span>
+                        </div>
+                        <div class="study-space">
+                            <div class="space-heading">
+                                <span class="line-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><path d="M4 7h6l2 2h8v10H4V7Zm0 3h16"/></svg>
+                                </span>
+                                <div><span>Espaço de estudo</span><strong>Faculdade</strong></div>
+                            </div>
+                            <div class="content-tree">
+                                <div class="tree-item discipline-item">
+                                    <span class="tree-dot" aria-hidden="true"></span>
+                                    <div><span>Disciplina</span><strong>Biologia</strong></div>
+                                </div>
+                                <div class="tree-item lesson-item">
+                                    <span class="tree-line" aria-hidden="true"></span>
+                                    <span class="line-icon lesson-icon" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24"><path d="M6 4h12v16H6V4Zm3 5h6m-6 4h6m-6 4h4"/></svg>
+                                    </span>
+                                    <div>
+                                        <span>Aula</span><strong>Fotossíntese</strong>
+                                        <div class="material-tags"><small>3 fotos</small><small>1 nota</small><small>4 assuntos</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="preview-caption">Representação ilustrativa da estrutura — não é uma captura do aplicativo.</p>
+                    </article>
+                    <div class="floating-card floating-search" aria-hidden="true">
+                        <span class="line-icon"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4.5 4.5"/></svg></span>
+                        <div><span>Busca rápida</span><strong>Encontre suas aulas</strong></div>
+                    </div>
+                    <div class="floating-card floating-topic" aria-hidden="true">
+                        <i></i><div><span>Assunto</span><strong>Clorofila</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section workflow" id="como-funciona" aria-labelledby="workflow-title">
+            <div class="container">
+                <div class="section-heading centered-heading">
+                    <p class="eyebrow">Do registro à revisão</p>
+                    <h2 id="workflow-title">Um caminho simples para continuar aprendendo</h2>
+                    <p>O AulaSnap mantém a organização próxima da forma como você já estuda.</p>
+                </div>
+                <ol class="workflow-list">
+                    <li><span class="step-number">01</span><span class="step-icon" aria-hidden="true">＋</span><h3>Registrar</h3><p>Crie a aula e adicione fotos ou notas enquanto o conteúdo ainda está fresco.</p></li>
+                    <li><span class="step-number">02</span><span class="step-icon" aria-hidden="true">▱</span><h3>Organizar</h3><p>Distribua o material entre espaços, disciplinas, aulas e assuntos.</p></li>
+                    <li><span class="step-number">03</span><span class="step-icon" aria-hidden="true">⌕</span><h3>Encontrar</h3><p>Use busca, favoritos e assuntos para chegar ao conteúdo certo.</p></li>
+                    <li><span class="step-number">04</span><span class="step-icon" aria-hidden="true">✓</span><h3>Estudar</h3><p>Continue de onde parou e mantenha o conteúdo disponível para revisão.</p></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section features" id="recursos" aria-labelledby="features-title">
+            <div class="container">
+                <div class="section-heading split-heading">
+                    <div><p class="eyebrow">Tudo no lugar certo</p><h2 id="features-title">Organização suficiente.<br>Complicação nenhuma.</h2></div>
+                    <p>Recursos pensados para reduzir o tempo entre registrar uma aula e reencontrar o que importa.</p>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card feature-card-large">
+                        <span class="feature-icon" aria-hidden="true">▱</span>
+                        <div><p class="card-kicker">Uma estrutura que faz sentido</p><h3>Espaços, disciplinas e aulas</h3><p>Separe faculdade, curso ou projeto em contextos claros. Cada aula mantém seus materiais e assuntos reunidos.</p></div>
+                        <div class="hierarchy-visual" aria-hidden="true"><span>Espaço de estudo</span><span>Disciplina</span><span>Aula</span><span>Assuntos</span></div>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">▧</span>
+                        <p class="card-kicker">Material no contexto</p><h3>Fotos e notas Markdown</h3><p>Registre imagens da aula, escreva notas e inclua imagens nelas sem separar o material do assunto estudado.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">⌘</span>
+                        <p class="card-kicker">Conexões visíveis</p><h3>Assuntos e mapa</h3><p>Identifique os temas de cada aula e visualize o Mapa de Assuntos dentro da disciplina.</p>
+                    </article>
+                    <article class="feature-card feature-card-wide">
+                        <span class="feature-icon" aria-hidden="true">◎</span>
+                        <div><p class="card-kicker">Para retomar sem atrito</p><h3>Busca, favoritos e revisão</h3><p>Encontre conteúdos, marque o que é importante e use “Continuar estudando” para voltar ao ponto certo.</p></div>
+                        <ul class="compact-list" aria-label="Recursos para retomar o estudo"><li>Busca</li><li>Favoritos</li><li>Continuar estudando</li><li>Revisão</li></ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section privacy" id="privacidade" aria-labelledby="privacy-title">
+            <div class="container privacy-layout">
+                <div class="privacy-copy">
+                    <p class="eyebrow eyebrow-light">Local-first</p>
+                    <h2 id="privacy-title">Seus estudos começam no seu aparelho.</h2>
+                    <p class="privacy-lead">O núcleo do AulaSnap funciona localmente. Você não precisa de uma Conta Google para registrar, organizar e consultar seu conteúdo.</p>
+                    <ul class="check-list">
+                        <li><span aria-hidden="true">✓</span><div><strong>Uso principal local</strong><p>Seu conteúdo fica disponível no aparelho para a rotina de estudos.</p></div></li>
+                        <li><span aria-hidden="true">✓</span><div><strong>Conta Google não obrigatória</strong><p>Conecte uma conta somente se escolher um recurso que dependa dela.</p></div></li>
+                        <li><span aria-hidden="true">✓</span><div><strong>Dados que podem acompanhar você</strong><p>Exporte e importe arquivos <code>.aulasnap</code> quando precisar transportar conteúdo.</p></div></li>
+                    </ul>
+                </div>
+                <div class="data-visual" aria-label="Ilustração de um arquivo AulaSnap saindo do aparelho">
+                    <div class="phone-shape" aria-hidden="true"><i></i><div><img src="s.%20titulo/SVG/Prancheta%201.svg" alt="" width="74" height="74"><span>Seu conteúdo</span><strong>No seu aparelho</strong></div></div>
+                    <div class="transfer-arrow" aria-hidden="true">→</div>
+                    <div class="file-shape"><span class="file-icon" aria-hidden="true">⌑</span><small>Arquivo portátil</small><strong>estudos.aulasnap</strong></div>
+                </div>
+            </div>
+            <div class="container">
+                <aside class="drive-callout" aria-labelledby="drive-title">
+                    <span class="drive-icon" aria-hidden="true">△</span>
+                    <div><p class="card-kicker">Quando você escolher</p><h3 id="drive-title">Google Drive é opcional</h3><p>Quer manter uma cópia no Drive? Conecte sua Conta Google somente quando precisar usar o backup opcional.</p></div>
+                    <span class="optional-label">Você decide</span>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section sharing" aria-labelledby="sharing-title">
+            <div class="container sharing-layout">
+                <div class="sharing-visual" aria-hidden="true">
+                    <div class="share-person"><span>A</span><small>Seu AulaSnap</small></div>
+                    <div class="copy-route"><i></i><b>▣</b><small>Cópia</small><i></i></div>
+                    <div class="share-person share-person-two"><span>B</span><small>Outro AulaSnap</small></div>
+                </div>
+                <div class="sharing-copy">
+                    <p class="eyebrow">Compartilhe sem misturar</p>
+                    <h2 id="sharing-title">Envie conteúdo. A outra pessoa recebe uma cópia independente.</h2>
+                    <p>O material compartilhado pode ser adicionado ao AulaSnap de outra pessoa, sem criar colaboração em tempo real ou alterar o seu conteúdo original.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section final-cta" id="download" aria-labelledby="download-title">
+            <div class="container">
+                <div class="cta-panel">
+                    <img src="c.%20%20titulo/SVG/Prancheta%201.svg" alt="AulaSnap" width="126" height="126">
+                    <div><p class="eyebrow eyebrow-light">Seu estudo, organizado</p><h2 id="download-title">Menos tempo procurando.<br>Mais tempo para continuar.</h2><p>O AulaSnap estará disponível em breve para Android.</p></div>
+                    <!-- Substituir por um link quando a URL oficial da Play Store estiver disponível. -->
+                    <span class="button button-light store-cta">Em breve no Google Play</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="footer-brand">
+                <a class="brand" href="#inicio" aria-label="AulaSnap — voltar ao início"><img src="s.%20titulo/SVG/Prancheta%201.svg" alt="" width="40" height="40"><span>AulaSnap</span></a>
+                <p>Organize suas aulas. Encontre quando precisar.</p>
+            </div>
+            <div class="footer-links" aria-label="Links institucionais">
+                <div><strong>Institucional</strong><span aria-disabled="true">Política de Privacidade <small>em breve</small></span><span aria-disabled="true">Termos de Uso <small>em breve</small></span></div>
+                <div><strong>Contato</strong><a href="mailto:suporte@dmbsoftware.com.br">suporte@dmbsoftware.com.br</a></div>
+            </div>
+        </div>
+        <div class="container footer-bottom"><p>© DMB Software. Todos os direitos reservados.</p><a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a></div>
+    </footer>
+</body>
 </html>
