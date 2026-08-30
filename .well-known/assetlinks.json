@@ -1,0 +1,12 @@
+[{
+    "relation": [
+        "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.dmb.aulasnap",
+        "sha256_cert_fingerprints": [
+            "04:5A:EC:18:6F:B9:D6:17:18:3C:F8:FA:85:0A:F8:22:CB:49:86:13:55:31:44:9D:DF:71:4D:8F:5C:2C:42:A4"
+        ]
+    }
+}]
